@@ -1,0 +1,418 @@
+/* creating horizontal link*/
+    *{
+      margin:0;
+      padiing:0;
+      }
+    body {
+          font-size: 20px;
+         }
+
+   .container {
+        position: relative;
+        width: auto;
+      }
+
+   .image {
+     display:inline-block;
+     width: 100%;
+     height: auto;
+   }
+
+    .ul   {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: rgba(0, 0, 0, 0.8);
+          position: -webkit-sticky; /* Safari */
+          position: sticky;
+          top: 0;
+          box-shadow: 0px 2px 8px black;
+         }
+
+   .li    {
+          float: left;
+          border-right:1px solid #bbb;
+         }
+
+  li a   {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 15px;
+          text-decoration: none;
+         }
+
+
+  li a:hover {
+          background-color: #f50ad2;
+         }
+
+      .active {
+         background-color: #4CAF50;
+         }
+
+     .loginform{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 15px;
+        text-decoration: none;
+         }
+/* End of horizontal list styling */
+/* main page styling */
+
+     .mPage{
+       background-color:#e3e4e6;
+       padding-left: 14%;
+       padding-top: 100px;
+       padding-right: 4%;
+       margin: auto;
+       border-top: 1px solid #f7240c;
+     }
+     .p{
+       float: left;
+       display: inline-block;
+       padding-left: 40px;
+
+     }
+
+    .i{
+      float: left;
+    }
+
+    .b{
+      float: left;
+      padding-left: 110px;
+      text-align: center;
+      margin: 10px;
+      color:#d92e6f;
+
+    }
+
+    a:link {
+      text-decoration: none ;
+    }
+
+    /* style for the Excerpt*/
+      .excerpt{
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgba(0, 0, 0, 0); /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+        padding: 60px;
+      }
+
+      .excerpt-content {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 20px 2px  rgba(0, 0, 0, 0.5);
+        color: Black;
+        margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+      }
+
+      #content1{
+        float: left;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      #content2{
+        float: none;
+        width: 100%;
+        background-color:#ededed;
+      }
+
+      #content3{
+        float:none;
+        width:100%;
+        background-color:#e3e4e6;
+      }
+      #content5{
+        padding-top: 20px;
+        padding-left: 14%;
+        width: 53%;
+        float: left;
+      }
+     #content6{
+       padding-top: 20px;
+       padding-right:4%;
+       width: 28%;
+       float: right;
+     }
+
+     .font{
+       font-family: "courier";
+     }
+/* see more collapse start */
+     .collapsible{
+       background-color:#ffffff;
+       color: #7e6ef5;
+       cursor: pointer;
+       padding: 18px;
+       width: 100%;
+       border: none;
+       text-align: center;
+       outline: none;
+       font-size: 15px;
+     }
+
+     #more {
+       display: none;
+     }
+     #smore {
+       display: none;
+     }
+
+     /* see more collapse end */
+     /*other styling for last content of project 1*/
+     .content7{
+       background-color: #66e6fa;
+       color:#000000;
+       padding-left: 11%;
+       padding-right: 11%;
+       padding-bottom: 40px;
+       padding-top: 40px;
+       width: 78%;
+     }
+     .content7a{
+       background-color: #ffffff;
+       color:#000000;
+       padding-left: 11%;
+       padding-right: 11%;
+       padding-bottom: 40px;
+       width: 78%;
+     }
+     .lPage{
+       background-color:#ffffff;
+       padding-left: 14%;
+       padding-top: 10px;
+       padding-right:4%;
+       padding-bottom: 30px;
+       margin: auto;
+     }
+/*styling footer*/
+    .footers{
+      position: relative;
+      padding-top:20px;
+      color: #ffffff;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding-left:110px;
+      padding-right:110px;
+    }
+
+ /*subscription*/
+
+ .subscribe{
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgba(0, 0, 0, 0); /* Fallback color */
+   background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+   padding: 60px;
+ }
+    form {
+      border: 3px solid #f1f1f1;
+      font-family: Arial;
+    }
+
+    input[type=text], input[type=submit] {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    input[type=checkbox] {
+      margin-top: 16px;
+    }
+
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+    }
+
+    input[type=submit]:hover {
+      opacity: 0.8;
+    }
+   /*Author page*/
+   .aPage{
+     background-color: #fff8e6;
+     color:#000000;
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-bottom: 40px;
+     padding-top: 40px;
+     width: 80%;
+   }
+   .font2{
+     font-family:monospace;
+   }
+ /*Author pics transition*/
+ .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.overlays {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 100%;
+ background-color: #008CBA;
+ overflow: hidden;
+ width: 0;
+ height: 100%;
+ transition: .5s ease;
+}
+
+ .container:hover .overlay  {
+  width: 100%;
+  left: 0;
+}
+
+.container:hover .overlays  {
+ width: 100%;
+ left: 0;
+}
+
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+/*slideshow on home ----------------------------------------------------/*/
+  .mySlides {
+    display: none;
+  }
+  .img {
+    vertical-align: middle;
+  }
+  /* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Number text (1/9 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activ {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*feedback form*/
+
+
+input[type=email], select, textarea {
+width: 100%;
+padding: 15px;
+border: 1px solid rgb(70, 68, 68);
+border-radius: 4px;
+resize: vertical;
+}
+
+input[type=submit] {
+background-color: rgb(37, 116, 161);
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+float: right;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+.feedback {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 99%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* feedback form Content/Box */
+.feedback-content {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 20px 2px  rgba(0, 0, 0, 0.5);
+  color: #fff;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 95%; /* Could be more or less, depending on screen size */
+    padding-right: 40px;
+}

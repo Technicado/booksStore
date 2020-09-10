@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Subhash jha">
+    <title>Main page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="loginform.css">
+
+  <body>
+        <img src="pics/cover.png" alt="BookWorm! Buy your book" style="width:100%" height="250px">
+<!-- creating horizontal link -->
+    <ul class="ul">
+      <li class="li"><a href="home.html">Home</a></li>
+      <li class="li"><a href="author.html">Author</a></li>
+      <li class="li"><a href="contact.html">Contact</a></li>
+      <li class="li" style="float:right;border-left:1px solid #bbb;"><a href="about.html">About</a></li>
+      <li class="loginform li" style="float:right;border-left:1px solid #bbb;"
+       onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</li>
+    </ul>
+    <!-- ending horizontal link -->
+    <!-- creating login form using java script -->
+    <div id="id01" class="lform">
+
+  <form class="lform-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close lform">&times;</span>
+      <img src="pics/userimg2.jpg" alt="user image" class="userimg2">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname"required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw"required>
+
+      <button type="submit" onclick="someFunc()">Login</button>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="fpass">Forgot <a href="#">password?</a></span>
+    </div>
+   </form>
+  </div>
+  <script src="project.js"></script>
+
+ <!--slideshow-->
+
+  <div class="slideshow-container">
+   <div class="mySlides fade">
+   <div class="numbertext">1 / 9</div>
+   <img src="pics/1.jpg" style="width:100%">
+  </div>
+   <div class="mySlides fade">
+   <div class="numbertext">2 / 9</div>
+   <img src="pics/2.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+   <div class="numbertext">3 / 9</div>
+   <img src="pics/3.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+   <div class="numbertext">4 / 9</div>
+   <img src="pics/4.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+   <div class="numbertext">5 / 9</div>
+   <img src="pics/5.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+   <div class="numbertext">6 / 9</div>
+   <img src="pics/6.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+   <div class="numbertext">7 / 9</div>
+   <img src="pics/7.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+   <div class="numbertext">8 / 9</div>
+   <img src="pics/8.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+   <div class="numbertext">9 / 9</div>
+   <img src="pics/9.jpg" style="width:100%">
+  </div>
+  </div>
+  <br>
+
+ <div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+ </div>
+  <script src="project.js"></script>
+  <br>
+  <br>
+  <!--books and upcoming books list of the site-->
+  <div class="aPage">
+   <h1 class="font" style="text-align:center;">Available Books</h1>
+   <br>
+   <a href="project_1.html">
+   <img src="pics/ready_player_1.jpg" alt="ready_player_1" height="300"> &emsp;</a>
+   <a href="armada.html">
+   <img src="pics/armada.jpg" alt="Armada"height="300">&emsp;</a>
+   <a href="safa.html">
+   <img src="pics/funage.jpg" alt="Such a fun age"height="300"></a>
+   <br>
+   <br>  <h1 class="font" style="text-align:center;">UpComing Books</h1>
+   <br>
+   <img src="upcoming/american.jpg" alt="ready_player_1" height="300"> &emsp;&emsp;
+   <img src="upcoming/callitmagic.jpg" alt="ready_player_1" height="300"> &emsp;&emsp;
+   <img src="upcoming/defending.jpg" alt="ready_player_1" height="300"> &emsp;&emsp;
+   <img src="upcoming/vietnam.jpg" alt="ready_player_1" height="300"> &emsp;&emsp;
+   <br>
+   <br><img src="upcoming/greta.jpg" alt="ready_player_1" height="300"> &emsp;&emsp;
+   <img src="upcoming/odd.jpg" alt="ready_player_1" height="300"> &emsp;&emsp;
+   <img src="upcoming/old.jpg" alt="ready_player_1" height="300"> &emsp;&emsp;
+   <img src="upcoming/shesaid.jpg" alt="ready_player_1" height="300"> &emsp;&emsp;
+   <br>
+   <br><img src="upcoming/shoutingattherain.jpg" alt="ready_player_1" height="300"> &emsp;&emsp;
+   <img src="upcoming/signs.jpg" alt="ready_player_1" height="300"> &emsp;&emsp;
+   <img src="upcoming/suemonk.jpg" alt="ready_player_1" height="300"> &emsp;&emsp;
+   <img src="upcoming/suspect.jpg" alt="ready_player_1" height="300"> &emsp;&emsp;
+   <br>
+   <br>
+   <br>
+
+   <!--Feedback form-->
+
+   <h1 class="font">WE appreciate you coming here please fill the form to give your valueble feedback.</h1>
+   <button onclick="document.getElementById('id04').style.display='block'" style="background-color:#d41c3a; ">Feedback Form</button>
+   <div id="id04" class="feedback">
+   <form class="feedback-content animate"  method="post">
+   <div class="container">
+         <label for="fname"><b>First Name</b></label><br>
+         <br>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+         <label for="lname"><b>Last Name</b></label>
+         <input type="text" id="lname" name="lastname" placeholder="Last name.."required>
+          <br>
+         <label for="email"><b>Email</b></label><br>
+         <br>
+         <input type="email" id="email" name="mailid" placeholder="Your mail id.."><br>
+         <br>
+         <label for="country"><b>Country</b></label><br>
+         <br>
+         <select id="country" name="country">
+          <option value="none">Select Country</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="russia">Russia</option>
+          <option value="japan">Japan</option>
+          <option value="india">India</option>
+          <option value="china">China</option>
+        </select><br>
+        <br>
+
+        <label for="feed_back"><b>Feedback</b></label><br>
+        <br>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" "width:500px" ></textarea>
+        <br>
+          <button type="submit" onclick="someFuncs()">Submit</button>
+       </div>
+        <div class="container" style="background-color:#f1f1f1">
+         <button type="button" onclick="document.getElementById('id04').style.display='none'" class="cancelbtn">Cancel</button>
+         <span class="fpass">Forgot <a href="#">password?</a></span>
+       </div>
+      </form>
+     </div>
+     <script src="project.js"></script>
+   </div>
+
+<!--footer of page-->
+  <footer  class="footers">
+    <h2 class="font">Get news about Sci-Fi & Fantasy books, authors, and more</h2>
+    <button onclick="document.getElementById('id03').style.display='block'" style="background-color:#d41c3a; ">SUBSCRIBE</button>
+  <div id="id03" class="subscribe b">
+    <form class="excerpt-content animate">
+     <div class="container">
+         <input type="text" placeholder="Name" name="name" required>
+         <input type="text" placeholder="Email address" name="mail" required>
+         <label>
+         <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+         </label>
+      </div>
+      <div class="container">
+         <input type="submit" value="Subscribe">
+      </div>
+      <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn" >Cancel</button>
+    </form>
+    </div>
+    <script src="project.js"></script>
+  </footer>
+  </body>
+</html>

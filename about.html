@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Subhash jha">
+    <title>About page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="loginform.css">
+
+  <body>
+        <img src="pics/cover.png" alt="BookWorm! Buy your book" style="width:100%" height="250px">
+<!-- creating horizontal link -->
+    <ul class="ul">
+      <li class="li"><a href="home.html">Home</a></li>
+      <li class="li"><a href="author.html">Author</a></li>
+      <li class="li"><a href="contact.html">Contact</a></li>
+      <li class="li" style="float:right;border-left:1px solid #bbb;"><a href="about.html">About</a></li>
+      <li class="loginform li" style="float:right;border-left:1px solid #bbb;"
+       onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</li>
+    </ul>
+    <!-- ending horizontal link -->
+    <!-- creating login form using java script -->
+  <div id="id01" class="lform">
+
+<form class="lform-content animate" action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close lform">&times;</span>
+    <img src="pics/userimg2.jpg" alt="user image" class="userimg2">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <button type="submit" onclick="someFunc()">Login</button>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    <span class="fpass">Forgot <a href="#">password?</a></span>
+  </div>
+  </div>
+  <script script src="project.js"></script>
+  <!--main content of page-->
+   <h1 class="font content7">Welcome to BOOKWORM, Buy your book here!!</h1>
+   <p class="font content7">Welcome to the world of BOOKWORM books. Explore the topics and categories on this page to learn more
+                            about how we partner with authors to bring you printed books. We are still growing and growing fast, we have
+                            estimated to provide you with over 80000 digital and 15000 printed books. WE will also provide you the option
+                            to buy directly from us in the form of printed and digital books with great discount. We are going to partner with many
+                            authors so you don't get problem finding any books you like.KEEP STAYING WITH US.</p>
+
+    <div class="font content7a">
+      <img src="pics/about.jpg" alt="about pics" height="400" width="900">
+      <br>
+      <h3>What we do?</h3>
+      <p>Our dedicated team of publishing professionals is committed to helping authors realize their very best work and to finding innovative new
+        ways of bringing stories and ideas to audiences worldwide. By leveraging our global reach, embracing new technologies, and collaborating with
+        authors at every stage of the publishing process—from editorial and design, to sales and marketing, to production and distribution—we aim to
+        provide them with the greatest platform possible. At the same time, we fiercely protect our authors’ intellectual property and champion freedom
+         of expression, ensuring that their voices carry beyond the page and into the folds of communities and societies around the globe.</p>
+       <br>
+      <h3>At a Glance...</h3>
+      <ul>
+        <br>
+        <li>Established on DECEMBER, 1, 2019
+        <li>Headquartered in New india with operations in 4 countries</li>
+        <li>Will be Comprised of adult and children’s fiction and nonfiction print and digital trade book publishing</li>
+        <li>Soon will be Made up of 250 editorially and creatively independent imprints</li>
+      </ul>
+      <br>
+      <br><br><br>
+    </div>
+    <!--footer of the page-->
+    <footer class="footers">
+      <h2 class="font">Get news about Sci-Fi & Fantasy books, authors, and more</h2>
+      <button onclick="document.getElementById('id03').style.display='block'" style="background-color:#d41c3a; ">SUBSCRIBE</button>
+    <div id="id03" class="subscribe b">
+      <form class="excerpt-content animate">
+       <div class="container">
+           <input type="text" placeholder="Name" name="name" required>
+           <input type="text" placeholder="Email address" name="mail" required>
+           <label>
+           <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+           </label>
+        </div>
+        <div class="container">
+           <input type="submit" value="Subscribe">
+        </div>
+        <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn" >Cancel</button>
+      </form>
+      </div>
+      <script src="project.js"></script>
+    </footer>
+  </body>
+  </html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Subhash jha">
+    <title>Author</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="loginform.css">
+
+  <body>
+        <img src="pics/cover.png" alt="BookWorm! Buy your book" style="width:100%" height="250px">
+<!-- creating horizontal link -->
+    <ul class="ul">
+      <li class="li"><a href="home.html">Home</a></li>
+      <li class="li"><a href="author.html">Author</a></li>
+      <li class="li"><a href="contact.html">Contact</a></li>
+      <li class="li" style="float:right;border-left:1px solid #bbb;"><a href="about.html">About</a></li>
+      <li class="loginform li" style="float:right;border-left:1px solid #bbb;"
+       onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</li>
+    </ul>
+    <!-- ending horizontal link -->
+    <!-- creating login form using java script -->
+    <div id="id01" class="lform">
+
+  <form class="lform-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close lform">&times;</span>
+      <img src="pics/userimg2.jpg" alt="user image" class="userimg2">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname"required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw"required>
+
+      <button type="submit" onclick="someFunc()">Login</button>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="fpass">Forgot <a href="#">password?</a></span>
+    </div>
+   </form>
+  </div>
+  <script src="project.js"></script>
+  <!--ending login & starting main-->
+  <!--authors and upcoming authors of the site-->
+  <div class="aPage font2">
+    <h2>Meet Our Authors</h2>
+    <p>Keep up with your favorite authors to
+       Discover new voices by browsing our bestselling and award-winning authors.
+       Also keep yourself updated with all upcoming list of authors and books.</p>
+    <br>
+    <br>
+    <hr>
+    <h1 style="text-align:center;">Our Authors</h1>
+    <hr>
+    <br>
+    <div class="container" style="display:inline-block;">
+      <a href="Ernest.html">
+      <img src="pics/ernest.jpg" alt="Ernest" class="image">
+     <div class="overlay">
+      <div class="text">Ernest Cline</div></a>
+     </div>
+    </div>
+    <div class="container" style="display:inline-block;" >
+      <a href="kiley.html">
+      <img src="pics/kiley.jpg" alt="kiley reid" class="image">
+     <div class="overlays">
+       <div class="text">Kiley Reid</div></a>
+     </div>
+    </div>
+  </div>
+  <div class="aPage font2">
+    <hr>
+    <h1 style="text-align:center;">Upcoming Authors</h1>
+    <hr>
+    <br>
+    <div class="container" style="display:inline-block;">
+      <img src="pics/amanda.jpg" alt="amanda" class="image">
+     <div class="overlay">
+      <div class="text">Amanda Quick</div>
+     </div>
+    </div>
+    <div class="container" style="display:inline-block;" >
+     <img src="pics/brian.jpg" alt="Brian green" class="image">
+     <div class="overlays">
+       <div class="text">Brian Green</div>
+     </div>
+    </div>
+    <div class="container" style="display:inline-block;" >
+     <img src="pics/andrea.jpg" alt="Andrea Robortson" class="image">
+     <div class="overlays">
+       <div class="text">Andrea Robertson</div>
+     </div>
+    </div>
+    <div class="container" style="display:inline-block;" >
+     <img src="pics/hamid.jpeg" alt="Mohsin Hamid" class="image">
+     <div class="overlay">
+       <div class="text">Mohsin Hamid</div>
+     </div>
+    </div>
+    <div class="container" style="display:inline-block;" >
+     <img src="pics/karen.jpeg" alt="Karen White" class="image">
+     <div class="overlays">
+       <div class="text">Karen White</div>
+     </div>
+    </div>
+    <div class="container" style="display:inline-block;" >
+     <img src="pics/zadie.jpeg" alt="Zadie Smith" class="image">
+     <div class="overlays">
+       <div class="text">Zadie Smith</div>
+     </div>
+    </div>
+    <br>
+
+    <br><br>
+    <p>We are also going to partner with many more authors very soon.....</p>
+  </div>
+
+<!--footer of the page-->
+
+  <footer  class="footers">
+    <h2 class="font">Get news about Sci-Fi & Fantasy books, authors, and more</h2>
+    <button onclick="document.getElementById('id03').style.display='block'" style="background-color:#d41c3a; ">SUBSCRIBE</button>
+  <div id="id03" class="subscribe b">
+    <form class="excerpt-content animate">
+     <div class="container">
+         <input type="text" placeholder="Name" name="name" required>
+         <input type="text" placeholder="Email address" name="mail" required>
+         <label>
+         <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+         </label>
+      </div>
+      <div class="container">
+         <input type="submit" value="Subscribe">
+      </div>
+      <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn" >Cancel</button>
+    </form>
+    </div>
+    <script src="project.js"></script>
+  </footer>
+  </body>
+</html>

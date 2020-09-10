@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Subhash jha">
+    <title>Kiley Reid</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="loginform.css">
+
+  <body>
+        <img src="pics/cover.png" alt="BookWorm! Buy your book" style="width:100%" height="250px">
+<!-- creating horizontal link -->
+    <ul class="ul">
+      <li class="li"><a href="home.html">Home</a></li>
+      <li class="li"><a href="author.html">Author</a></li>
+      <li class="li"><a href="contact.html">Contact</a></li>
+      <li class="li" style="float:right;border-left:1px solid #bbb;"><a href="about.html">About</a></li>
+      <li class="loginform li" style="float:right;border-left:1px solid #bbb;"
+       onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</li>
+    </ul>
+    <!-- ending horizontal link -->
+    <!-- creating login form using java script -->
+    <div id="id01" class="lform">
+
+  <form class="lform-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close lform">&times;</span>
+      <img src="pics/userimg2.jpg" alt="user image" class="userimg2">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname"required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw"required>
+
+      <button type="submit" onclick="someFunc()">Login</button>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="fpass">Forgot <a href="#">password?</a></span>
+    </div>
+   </form>
+  </div>
+  <script src="project.js"></script>
+  <!--main content-->
+  <main  class="mPage font">
+    <p id="content3">
+      <img class="i" src="pics/kiley.jpg" alt="Kiley Reid"><br>
+      <h2 class="p font"> Kiley Reid</h2><br><br>
+      <h4 class="p"> About Kiley Reid </h4> <br>
+      <hr>
+      <p class="p">Reid was born in Los Angeles, California in <br>
+                   1987 and raised in Tucson, Arizona from the <br>
+                   age of seven to twenty.She graduated from <br>
+                   Salpointe Catholic High School and studied theater <br>
+                   at the University of Arizona for two years before <br>
+                   transferring to Marymount Manhattan College. <br>
+                    She later graduated from the Iowa Writers' Workshop.<br>
+                   Kiley Reid earned her MFA from the Iowa Writer's <br>
+                   Workshop, where she was awarded the Truman Capote <br>
+                   Fellowship and taught undergraduate creative writing <br>
+                   workshops with a focus on race and class. Her short <br>stories
+                   have been featured in Ploughshares, <br>December, New South,
+                   and Lumina. Reid lives in <br>Philadelphia.
+                 </p>
+        </p>
+        </main>
+         <div class="aPage">
+          <br>
+          <hr>
+          <hr>
+          <br>
+          <br>
+          <hr>
+
+           <hr>
+            <br>
+            <h2 style="text-align:center;">Awards </h2>
+            <p style="display:inline;">Truman Capote Fellowship</p> <p style="display:inline; float:right;">Awarded 2005</p>
+            <br> <br>
+            <p style="display:inline;">none </p> <p style="display:inline; float:right;"> 2017</p>
+            <hr>
+         </div>
+       <div class="aPage">
+           <hr>
+           <h2 class="font">Books by Ernest Cline</h2> <br>
+           <a style="display:inline" href="Project_1.html">
+           <img src="pics/rpo.jpg" alt="Ready Player One"></a>&nbsp;
+           <a style="display:inline" href="armada.html">
+           <img src="pics/Armada.jpg" alt="Armada"></a>
+           <pre><p>Ready player One      Armada </p> </pre>
+      </div>
+      <hr>
+      <div class="aPage">
+        <h2>Related Sites</h2>
+        <a href="https://en.wikipedia.org/wiki/Kiley_Reidr"> kiley reid information</a>
+        <br>
+        <br>
+        <a href="https://twitter.com/kileyreid?lang=en">Follow kiley reid on twitter</a>
+      </div>
+      <div class="aPage">
+        <h2>Kiley Reid discusses her novel, "Such A Fun Age", at Politics and Prose</h2>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/5kBzxONUmbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      <!--main body ends here-->
+      <!--footer of the page-->
+       <footer  class="footers">
+         <h2 class="font">Get news about Sci-Fi & Fantasy books, authors, and more</h2>
+         <button onclick="document.getElementById('id03').style.display='block'" style="background-color:#d41c3a; ">SUBSCRIBE</button>
+          <div id="id03" class="subscribe b">
+         <form class="excerpt-content animate">
+         <div class="container">
+         <input type="text" placeholder="Name" name="name" required>
+         <input type="text" placeholder="Email address" name="mail" required>
+         <label>
+         <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+         </label>
+         </div>
+         <div class="container">
+         <input type="submit" value="Subscribe">
+         </div>
+         <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn" >Cancel</button>
+         </form>
+         </div>
+         <script src="project.js"></script>
+      </footer>
+    </body>
+  </html>

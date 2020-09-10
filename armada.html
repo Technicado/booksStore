@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Subhash jha">
+    <title>Armada</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="loginform.css">
+
+  <body>
+        <img src="pics/cover.png" alt="BookWorm! Buy your book" style="width:100%" height="250px">
+<!-- creating horizontal link -->
+    <ul class="ul">
+      <li class="li"><a href="home.html">Home</a></li>
+      <li class="li"><a href="author.html">Author</a></li>
+      <li class="li"><a href="contact.html">Contact</a></li>
+      <li class="li" style="float:right;border-left:1px solid #bbb;"><a href="about.html">About</a></li>
+      <li class="loginform li" style="float:right;border-left:1px solid #bbb;"
+       onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</li>
+    </ul>
+    <!-- ending horizontal link -->
+    <!-- creating login form using java script -->
+    <div id="id01" class="lform">
+
+  <form class="lform-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close lform">&times;</span>
+      <img src="pics/userimg2.jpg" alt="user image" class="userimg2">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname"required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw"required>
+
+      <button type="submit" onclick="someFunc()">Login</button>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="fpass">Forgot <a href="#">password?</a></span>
+    </div>
+   </form>
+  </div>
+  <script src="project.js"></script>
+<!-- starting main  -->
+<main  class="mPage font">
+  <p id="content3">
+    <img class="i" src="pics/armad.jpg" alt="Armada"><br>
+    <h2 class="p font"> Armada</h2><br><br>
+    <h4 class="p" >A Novel</h4><br>
+    <p class="p"> By Ernest Cline</p><br><br>
+    <p class="p"> Category: <span style="color:#eb3f81;"> Space Opera | Suspense & Thriller </span> </p> <br><br> <br>
+    <h4 class="p"> About Ernest Cline </h4> <br>
+    <p class="p">Ernest Cline is an internationally best- selling<br> novelist, screenwriter,father, and  full-time <br> geek.
+                 He is the #1 New York Times best-selling author of  <br>the novels Ready Player One and Armada,<br>
+                 and co-screenwriter of  the blockbuster film <br>adaptation of Ready Player One, directed by <br> Steven...... <a href="Ernest.html">
+                 <span style="color:#eb3f81;">more about Ernest Cline</span></a> </p> <br> <br> <br>
+    <br><br><br> <p class="p"><span style="color:Red;>" <br> <br> Buy your book HERE!!</span>
+      <a href="https://www.amazon.com/gp/product/0804137250?tag=randohouseinc7986-20" target="-_blank" ><span style="color:#eb3f81;"><br>amazon paperback/Audible</span></a></p> <br>
+<!--form for excerpt-->
+      <br> <br> <br> <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Read An Excerpt</button>
+        <div id="id02" class="excerpt b">
+          <form class="excerpt-content animate">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close lform">&times;</span>
+              <div id="content1">
+               <img class="b" src="pics/Armada.jpg" alt="Armada">
+               <h2 class="p">Armada</h2> <br> <br> <br> <br>
+               <p class="p"> Category: <span style="color:#eb3f81;">Space Opera | Suspense & Thriller </span> </p>
+               <br><br> <p class="p"> A Novel</p>
+               <br><br> <p class="p"> By <span style="color:#eb3f81;"> Ernest Cline</p> </span>
+               <br><br> <br><br>
+              </div>
+               <hr>
+               <hr>
+              <div id="content2">
+                <p><br>
+                    1
+                    <br>
+                     I was staring out the classroom window and daydreaming of adventure when I spotted the flying saucer.
+                     <br><br>
+                     I blinked and looked again--but it was still out there, a shiny chrome disc zigzagging around in the sky. My eyes struggled to track the object through a series of increasingly fast, impossibly sharp turns that would have juiced a human being, had there been any aboard. The disc streaked toward the distant horizon, then came to an instantaneous stop just above it. It hovered there motionless over the distant tree line for a few seconds, as if scanning the area beneath it with an invisible beam, before it abruptly launched itself skyward again, making another series of physics-defying changes to its course and speed.
+                     <br><br>
+                     I tried to keep my cool. I tried to remain skeptical. I reminded myself that I was a man of science, even if I did usually get a C in it.
+                     <br><br>
+                     I looked at it again. I still couldn’t tell what it was, but I knew what it wasn’t--it wasn’t a meteor. Or a weather balloon, or swamp gas, or ball lightning. No, the unidentified flying object I was staring at with my own two eyes was most definitely not of this earth.
+                     <br><br>
+                     My first thought was: Holy fucking shit.
+                     <br><br>
+                     Followed immediately by: I can’t believe it’s finally happening.
+                     <br><br>
+                    You see, ever since the first day of kindergarten, I had been hoping and waiting for some mind-blowingly fantastic, world-altering event to finally shatter the endless monotony of my public education. I had spent hundreds of hours gazing out at the calm, conquered suburban landscape surrounding my school, silently yearning for the outbreak of a zombie apocalypse, a freak accident that would give me super powers, or perhaps the sudden appearance of a band of time-traveling kleptomaniac dwarves.
+                     <br><br>
+                    i would estimate that approximately one-third of these dark daydreams of mine had involved the unexpected arrival of beings from another world.
+                     <br><br>
+                    Of course, I’d never believed it would really happen. Even if alien visitors did decide to drop by this utterly insignificant little blue-green planet, no self-respecting extraterrestrial would ever pick my hometown of Beaverton, Oregon--aka Yawnsville, USA--as their point of first contact. Not unless their plan was to destroy our civilization by wiping out our least interesting locales first. If there was a bright center to the universe, I was on the planet it was farthest from. Please pass the blue milk, Aunt Beru.
+                    <br><br>
+                    But now something miraculous was happening here--it was still happening, right now! There was a goddamn flying saucer out there. I was staring right at it.
+                    <br><br>
+                    And I was pretty sure it was getting closer.
+                    <br><br>
+                    I cast a furtive glance back over my shoulder at my two best friends, Cruz and Diehl, who were both seated behind me. But they were currently engaged in a whispered debate and neither of them was looking toward the windows. I considered trying to get their attention, but I was worried the object might vanish any second, and I didn’t want to miss my chance to see this for myself.
+                    <br><br>
+                    My gaze shot back outside, just in time to see another bright flash of silver as the craft streaked laterally across the landscape, then halted and hovered over an adjacent patch of terrain before zooming off again. Hover, move. Hover, move.
+                    <br><br>
+                    It was definitely getting closer. I could see its shape in more detail now. The saucer banked sideways for a few seconds, and I got my first clear glimpse of its top-down profile, and I saw that it wasn’t really a saucer at all. From this angle, I could see that its symmetrical hull resembled the blade of a two-headed battle-axe, and that a black, octagonal prism lay centered between its long, serrated wings, glinting in the morning sunlight like a dark jewel.
+                    <br><br>
+                    That was when I felt my brain begin to short-circuit, because there was no mistaking the craft’s distinctive design. After all, I’d seen it almost every night for the past few years, through a targeting reticle. I was looking at a Sobrukai Glaive, one of the fighter ships piloted by the alien bad guys in Armada, my favorite videogame.
+                    <br><br>
+                    Which was, of course, impossible. Like seeing a TIE Fighter or a Klingon Warbird cruising across the sky. The Sobrukai and their Glaive Fighters were fictional videogame creations. They didn’t exist in the real world--they couldn’t. In reality, videogames did not come to life and fictional spaceships did not buzz your hometown. Implausible shit like that only happened in cheesy ’80s movies, like TRON or WarGames or The Last Starfighter. The sorts of movies my late father had been nuts about.
+                    <br><br>
+                    The gleaming craft banked sideways again, and this time I got an even better look--there was no doubt about it. I was looking at a Glaive, right down to the distinctive claw-like grooves along its fuselage and the twin plasma cannons protruding from the front end like two fangs.
+                    <br><br>
+                    There was only one logical explanation for what I was seeing. I had to be hallucinating. And I knew what sort of people suffered from hallucinations in broad daylight without any help from drugs or alcohol. People who were cuckoo for Cocoa Puffs, that’s who. Cats with a serious marble deficiency.
+                    <br><br>
+                    I’d long wondered if my father had been one such person, because of what I’d read in one of his old journals. The things I’d seen there had given me the impression that he’d become somewhat delusional near the end of his life. That he may have even lost the ability to differentiate between videogames and reality--the very same problem I now seemed to be experiencing myself. Maybe it was just as I had always secretly feared: The apple had fallen right next to the Crazy Tree.
+                    <br><br>
+                    Had I been drugged? No, impossible. All I’d eaten that morning was a raw strawberry Pop-Tart I’d wolfed down in my car on the way to school--and the only thing crazier than hallucinating a fictional videogame spaceship would be to blame it on a frosted breakfast pastry. Especially if I knew my own DNA was a far more likely culprit.                    <br><br>
+                    This was my own fault, I realized. I could’ve taken precautions. But instead, I’d done the opposite. Like my old man, I’d spent my entire life overdosing on uncut escapism, willingly allowing fantasy to become my reality. And now, like my father before me, I was paying the price for my lack of vision. I was going off the rails on a crazy train. You could practically hear Ozzy screaming “All aboard!”
+                    <br><br>
+                    Don’t do this, I pleaded with myself. Don’t crack up now, when we’ve only got two months to go until graduation! This is the home stretch, Lightman! Keep it together!
+                    <br><br>
+                    Outside the window, the Glaive Fighter streaked laterally again. As it zoomed over a cluster of tall trees, I saw their branches rustle in its wake. Then it zipped through another cloud bank, moving so fast it punched a perfect circular hole through its center, dragging several long wisps of cloud vapor along with it as it tore out the other side.
+                    <br><br>
+                    A second later, the craft froze in midair one last time before it streaked straight upward in a silver blur, vanishing from sight as quickly as it had appeared.
+                    <br><br>
+                    I just sat there for a moment, unable to do more than stare at the empty patch of sky where it had been a second earlier. Then I glanced around at the other students seated nearby. No one else was looking in the direction of the windows. If that Glaive Fighter had really been out there, no one else had seen it.
+                    <br><br>
+                    I turned back and scanned the empty sky once again, praying for the strange silver craft to reappear. But it was long gone, and now here I was, forced to deal with the aftermath.
+                    <br><br>
+                    Seeing that Glaive Fighter, or imagining I’d seen it, had triggered a small rock slide in my mind that was already growing into a crushing avalanche of conflicting emotions and fragmented memories--all of them linked to my father, and that old journal I’d found among his things.
+                    <br><br>
+                    Actually, I wasn’t even sure it had been a journal. I’d never finished reading it. I’d been too disturbed by its contents, and what they’d seemed to imply about the author’s mental state. So I’d put the old notebook back where I found it and tried to forget that it even existed--and until a few seconds ago, I had succeeded.
+                    <br><br>
+                    But now I couldn’t seem to think about anything else.
+                    <br><br>
+                    I felt a sudden compulsion to run out of the school, drive home, and find it. It wouldn’t take long. My house was only a few minutes away.
+                    <br><br>
+                    I glanced over at the exit, and the man guarding it, Mr. Sayles, our elderly Integrated Mathematics II teacher. He had a silver buzz cut, thick horn-rimmed glasses, and wore the same monochromatic outfit he always did: black loafers, black slacks, a white short-sleeve dress shirt, and a black clip-on necktie. He’d been teaching at this high school for over forty-five years now, and the old yearbook photos in the library were proof that he’d been rocking this same retro ensemble the entire time. Mr. S was finally retiring this year, which was a good thing, because he appeared to have run out of shits to give sometime in the previous century. Today, he’d spent the first five minutes going over our homework assignment, then given us the rest of the period to work on it, while he shut off his hearing aid and did his crosswords. But he would still spot me if I tried to sneak out.
+                   <br><br>
+                    My eyes moved to the ancient clock embedded in the lime green brick wall above the obsolete chalkboard. With its usual lack of pity, it informed me there were still thirty-two minutes remaining until the bell.
+                   <br><br>
+                    There was no way I could take thirty-two more minutes of this. After what I’d just seen, I’d be lucky if I managed to keep my shit together for another thirty-two seconds.
+                   <br><br>
+                    Off to my left, Douglas Knotcher was currently engaged in his daily humiliation of Casey Cox, the shy, acne-plagued kid unfortunate enough to be seated in front of him. Knotcher usually limited himself to lobbing verbal insults at the poor guy, but today he’d decided to go old-school and lob spitballs at him instead. Knotcher had a stack of moist projectiles piled on his desk like cannonballs, and he was currently firing them at the back of Casey’s head, one after another. The back of the poor kid’s hair was already damp with spit from Knotcher’s previous attacks. A couple of Knotcher’s pals were watching from the back of the room, and they snickered each time he nailed Casey with another projectile, egging him on.
+                   <br><br>
+                    It drove me nuts when Knotcher bullied Casey like this--which, I suspected, was one of the reasons Knotcher enjoyed doing it so much. He knew I couldn’t do a damn thing about it.
+                   <br><br>
+                    I glanced at Mr. Sayles, but he was still lost in his crossword, clueless as always--a fact that Knotcher took advantage of on a daily basis. And on a daily basis, I had to resist the urge to knock his teeth down his throat.
+                    <br><br>
+                    Doug Knotcher and I had managed to avoid each other, for the most part, ever since “the Incident” back in junior high. Until this year, when a cruel act of fate had landed us both in the same math class. Seated in adjacent rows, no less. It was almost as if the universe wanted my last semester of high school to be as hellish as possible.
+                    <br><br>
+                    That would have also explained why my ex-girlfriend, Ellen Adams, was in this class, too. Three rows to my right and two rows back, sitting just beyond the reach of my peripheral vision.
+                    <br><br>
+                    Ellen was my first love, and we’d lost our virginity to each other. It had been nearly two years since she’d dumped me for some wrestler from a neighboring school, but every time I saw those freckles across the bridge of her nose--or caught sight of her tossing that curly red hair out of her eyes--I felt my heart breaking all over again. I usually spent the entire class period trying to forget she was in the room.
+                    <br><br>
+                    Being forced to sit between my mortal enemy and my ex-girlfriend every afternoon made seventh-period math feel like my own private Kobayashi Maru, a brutal no-win scenario designed to test my emotional fortitude.
+                    <br><br>
+                    Thankfully fate had balanced out the nightmare equation slightly by placing my two best friends in this class, too. If Cruz and Diehl hadn’t been assigned here, I probably would’ve snapped and started hallucinating shit midway through my first week.
+                    <br><br>
+                    I glanced back at them again. Diehl, who was tall and thin, and Cruz, who was short and stocky, both shared the same first name, Michael. Ever since grade school I had been calling them by their last names to avoid confusion. The Mikes were still engaged in the same whispered conversation they’d been having earlier, before I’d zoned out and started seeing things--a debate over the “coolest melee weapon in the history of cinema.” I tried to focus in on their voices again now.
+                    <br><br>
+                    “Sting wasn’t even really a sword,” Diehl was saying. “It was more like a glow-in-the-dark Hobbit butter knife, used to spread jam on scones and lembas bread and shit.”
+                    <br><br>
+                    Cruz rolled his eyes. “ ‘Your love of the halflings’ leaf has clearly slowed your mind,’ ” he quoted. “Sting was an Elvish blade, forged in Gondolin in the First Age! It could cut through almost anything! And its blade only glowed when it detected the presence of orcs or goblins nearby. What does Mjolnir detect? Fake accents and frosted hair?”
+                    <br><br>
+                    I wanted to tell them what I’d just seen, but best friends or not, there was no way in hell they’d believe me. They’d think of it as another symptom of their pal Zack’s psychological instability.
+                    <br><br>
+                    And maybe it was, too.
+                    <br><br>
+                     “Thor doesn’t need to detect his enemies so he can run off and hide in his little Hobbit hole!” Diehl whispered. “Mjolnir is powerful enough to destroy mountains, and it can also emit energy blasts, create force fields, and summon lightning. The hammer also always returns to Thor’s hand after he throws it, even if it has to tear through an entire planet to get back to him! And only Thor can wield it!” He leaned back.
+                     <br><br>
+                     “Dude, Mjolnir is a bullshit magical Swiss Army knife!” Cruz said. “Even worse than Green Lantern’s ring! They give that hammer a new power every other week, just to get Thor out of whatever asinine fix they’ve written him into.” He smirked. “By the way, lots of other people have wielded Mjolnir, including Wonder Woman in a crossover issue! Google it! Your whole argument is invalid, Diehl!”
+                    <br><br>
+                      Excerpted from Armada by Ernest Cline. Copyright © 2015 by Ernest Cline. All rights reserved. No part of this excerpt may be reproduced or reprinted without permission in writing from the publisher.
+                     </em></p>
+                 <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+              </div>
+            </div>
+          </form>
+          </div>
+         </p>
+         <hr>
+         <script src="project.js"></script>
+         </main>
+         <!-- excerpt form ends -->
+        <div>
+        <div id="content5">
+          <hr>
+          <h2 class="font"> Armada</h2> <br>
+          <p><b>Nominated as one of America’s best-loved novels by PBS’s  <i>The <br> Great American Read</i> </b></p> <br>
+          <p class="font">From the author of Ready Player One, a rollicking alien invasion thriller that embraces and subverts
+                          science-fiction conventions as only Ernest Cline can.
+
+                          Zack Lightman has never much cared for reality. He vastly prefers the countless science-fiction movies, books, and videogames he’s spent his life consuming. And too often, he catches himself wishing that some fantastic, impossible, world-altering event could arrive to whisk him off on a grand spacefaring adventure.
+
+                           So when he sees the flying saucer, he’s sure his years of<span id="dots">...</span><span id="more"> escapism have finally tipped over into madness.
+
+                          Especially because the alien ship he’s staring at is straight out of his favorite videogame, a flight simulator callled Armada—in which gamers just happen to be protecting Earth from alien invaders.
+
+                          As impossible as it seems, what Zack’s seeing is all too real. And it’s just the first in a blur of revlations that will force him to question everything he thought he knew about Earth’s history, its future, even his own life–and to play the hero for real, with humanity’s life in the balance.
+
+                          But even through the terror and exhilaration, he can’t help thinking: Doesn’t something about this scenario feel a little bit like . . .  well . . . fiction?
+
+                          At once reinventing and paying homage to science-fiction classics, Armada is a rollicking, surprising thriller, a coming-of-age adventure, and an alien invasion tale like nothing you’ve ever read before.
+
+                          Praise for Armada
+
+                          “A thrilling coming-of-age story.”—Entertainment Weekly
+
+                          “Nerd-gasmic . . . another science fiction tale with a Comic-Con’s worth of pop-culture shout-outs.”—Rolling Stone
+
+                          “An amazing novel [that] proves Cline has the ability to blend popular culture with exciting stories that appeal to everyone.”—Associated Press
+
+                          “Mixes Star Wars, The Last Starfighter, Independence Day and a really gnarly round of Space Invaders into a tasty sci-fi stew.”—USA Today
+
+                          “A fantastic second novel . . . fans of Ready Player One, it is time to rejoice.”—Huffington Post
+                           </span>
+          </p>
+            <button class="collapsible" onclick="myFunction()" id="myBtn">Read more</button>
+          <script src="project.js"></script>
+        </div>
+<!--collapsable content ends-->
+        <div id="content6">
+          <hr>
+          <h3 class="font">Also By <a href="Ernest.html">Ernest Cline</a></h3> <br>
+          <a href="Project_1.html">
+          <img src="pics/rpo.jpg" alt="Ernest Cline rpo"></a>
+          <h4 class="font">See all Books by <a href="Ernest.html">Ernest Cline</a> </h4>
+        </div>
+        </div>
+      <div>
+        <div id="content5">
+          <br>
+          <hr>
+          <h2 class="font">PRAISE</h2>
+          <p class="font">
+           <br>
+           “A joyous, rollicking read . . . will garner Cline an even larger group of fans than the formidable crew he’s already assembled.”—Boing Boing
+
+            “A great romp . . . Cline (ever the fanboy) is both reverent of and referential to the books and movies and games of his childhood.”—Mother Jones
+
+            “Video games <span id="dotss">...</span><span id="smore">come to life in this witty, extraterrestrial thriller.”—New York Post
+
+            “Built like a summer blockbuster . . . Cline recombines the DNA of Ender’s Game, Star Wars, The Last Starfighter, and old-school arcade games like Asteroids into something that’s both familiar and unpredictable. It’s a mutant homage to sci-fi tropes past.”—Gawker
+
+            “Hugely entertaining…a paean to the videogames of a bygone era, and like Ready Player One it is a tremendous amount of fun for anyone who remembers that time and played those games.”—George R.R. Martin, New York Times bestselling author of Game of Thrones
+
+            “A novel so fun, you’ll want to reboot it and read it again . . . the best novel this gamer geek has read in a long, long time.”—Hugh Howey, New York Times bestselling author of Wool
+
+             “Those conspiracies you imagined when you were fourteen turn out to be true in this masterful tale of Earth’s desperate struggle against a powerful alien foe.”—Andy Weir, New York Times bestselling author of The Martian
+
+            “Armada proves Ernie Cline is the modern master of wish fulfillment literature—and of reminding us to be careful what we wish for.”—John Scalzi, New York Times bestselling author of Old Man’s War
+
+            “With another winning teen protagonist in Zach, Cline mines the nostalgia and geek spheres just as successfully as he did in his acclaimed debut, Ready Player One. The works that obviously influenced the story line, such as Orson Scott Card’s Ender’s Game and the films The Last Starfighter and Star Wars, feel like homages rather than borrowings- a rap artist sampling the best beats our there to create an irresistible jam.”—Library Journal (starred review)
+
+            “Cline once again brings crackling humor and fanboy knowledge to a zesty, crowd-pleasing, countdown-clock, save-the-planet tale featuring an unlikely hero, adrenaline-pumping action, gawky romance, and touching family moments. . . . Cline’s sly, mind-twisting premise and energetically depicted and electrifying high-tech battles make for smart, frenetic, and satisfying entertainment.”—Booklist
+          </span>
+          </p>
+          <button class="collapsible" onclick="myFunctions()" id="myBtns">Read more</button>
+           <script src="project.js"></script>
+        </div>
+        <div id="content6">
+          <hr>
+          <h2 class="font">About Ernest Cline</h2>
+          <p class="font">Ernest Cline is an internationally best-selling novelist, screenwriter, father, and full-time geek. He is the #1 New York
+                  Times best-selling author of the novels  Ready Player One and Armada, and co-screenwriter of the blockbuster film adaptation of
+                  Ready Player One, directed by Steven Spielberg. His books have…<a href="Ernest.html">know more about ernest cline</a></p>
+        </div>
+         <div>
+        <br>
+        <h3> &nbsp;Product Details</h3>
+        <p>  &nbsp;Paperback | $16.00 <br>
+             </p><br>
+        </div>
+        <br>
+      </div>
+      <div>
+        <hr>
+        <div class="lPage">
+          <hr>
+          <br><br>
+          <br>
+          <br>
+          <hr>
+          <h3 class="font">Watch Ernest Cline talks about armada HERE!!</h3>
+
+         <br>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/wuTNOtbipUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <br>
+         <br>
+         </div>
+        </div>
+        <hr>
+         <hr>
+<!--footer of the page-->
+         <footer  class="footers">
+           <h2 class="font">Get news about Sci-Fi & Fantasy books, authors, and more</h2>
+           <button onclick="document.getElementById('id03').style.display='block'" style="background-color:#d41c3a; ">SUBSCRIBE</button>
+         <div id="id03" class="subscribe b">
+           <form class="excerpt-content animate">
+            <div class="container">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email address" name="mail" required>
+                <label>
+                <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                </label>
+             </div>
+             <div class="container">
+                <input type="submit" value="Subscribe">
+             </div>
+             <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn" >Cancel</button>
+           </form>
+           </div>
+           <script src="project.js"></script>
+         </footer>
+  </body>
+</html>

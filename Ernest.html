@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Subhash jha">
+    <title>Ernest Cline</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="loginform.css">
+
+  <body>
+        <img src="pics/cover.png" alt="BookWorm! Buy your book" style="width:100%" height="250px">
+<!-- creating horizontal link -->
+    <ul class="ul">
+      <li class="li"><a href="home.html">Home</a></li>
+      <li class="li"><a href="author.html">Author</a></li>
+      <li class="li"><a href="contact.html">Contact</a></li>
+      <li class="li" style="float:right;border-left:1px solid #bbb;"><a href="about.html">About</a></li>
+      <li class="loginform li" style="float:right;border-left:1px solid #bbb;"
+       onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</li>
+    </ul>
+    <!-- ending horizontal link -->
+    <!-- creating login form using java script -->
+    <div id="id01" class="lform">
+
+  <form class="lform-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close lform">&times;</span>
+      <img src="pics/userimg2.jpg" alt="user image" class="userimg2">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname"required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw"required>
+
+      <button type="submit" onclick="someFunc()">Login</button>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="fpass">Forgot <a href="#">password?</a></span>
+    </div>
+   </form>
+  </div>
+  <script src="project.js"></script>
+  <!--main content-->
+  <main  class="mPage font">
+    <p id="content3">
+      <img class="i" src="pics/Ernie.jpg" alt="Ernest Cline"><br>
+      <h2 class="p font"> Ernest Cline</h2><br><br>
+      <h4 class="p"> About Ernest Cline </h4> <br>
+      <hr>
+      <p class="p">Ernest Cline is an internationally best-selling <br>novelist, screenwriter,father, and  full-time <br> geek.
+                   He is the #1 New York Times best-selling <br>author of  the novels Ready Player One and<br> Armada,
+                   and  co-screenwriter of  the blockbuster <br>film adaptation of Ready Player One,directed by  <br> Steven Spielberg.
+                   His books have been published  <br>in over fifty countries and have spent more than 100 <br>weeks on The New York Times Best
+                   Sellers list.<br>  He lives in Austin, Texas, with his family, a<br> time-traveling DeLorean, and a large collection of<br>
+                   classics video games.</p>
+        </p>
+        </main>
+         <div class="aPage">
+          <br>
+          <hr>
+          <hr>
+          <br>
+          <br>
+          <hr>
+
+           <hr>
+            <br>
+            <h2 style="text-align:center;">Awards </h2>
+            <p style="display:inline;">Alex Award – YALSA</p> <p style="display:inline; float:right;">WINNER 2012</p>
+            <br> <br>
+            <p style="display:inline;"><abbr title="Laura Hillenbrand Outstanding Literary Award">LHOLA</abbr> </p> <p style="display:inline; float:right;">WINNER 2017</p>
+            <hr>
+         </div>
+       <div class="aPage">
+           <hr>
+           <h2 class="font">Books by Ernest Cline</h2> <br>
+           <a style="display:inline" href="Project_1.html">
+           <img src="pics/rpo.jpg" alt="Ready Player One"></a>&nbsp;
+           <a style="display:inline" href="armada.html">
+           <img src="pics/Armada.jpg" alt="Armada"></a>
+           <pre><p>Ready player One      Armada </p> </pre>
+      </div>
+      <hr>
+      <div class="aPage">
+        <br>
+        <hr>
+        <h2 class="font">Author Q&A</h2>
+        <p class="font">
+         <br>
+         Reporter: Since the hardcover of your debut novel Ready Player One came out last year, you’ve had many young readers contact you to say how much they related to the book. Why do you feel that so many readers — some of them too young to even remember the 1980s — have connected with Wade, Artemis, and Aech?
+        <br><br>
+        <br><br>
+        <br><br><span id="dotss">...</span><span id="smore">
+         Ernest Cline: It might be because young readers have all been raised in a world filled with high technology, just like the characters in the book. People born during the last two decades have grown up with the Internet and handheld computers. Most of their toys contain microchips, their video games have always looked incredibly real, and they’ve never known a world without mobile phones. They’ve also grown up in the aftermath of 9/11 and the global economic collapse. For all of these reasons, I think the world described in Ready Player One is very familiar to them, and that helps them relate to the characters in it. Young readers have also lived through endless reruns and reboots of ’80s movies and TV shows, so many of the touchstones of that decade are still familiar to them, even if they didn’t experience them firsthand.
+         <br><br>
+         Reporter: In Ready Player One, you incorporate literally hundreds of pop culture references, many of them in ways that are integral to the book’s plot. What’s the first thing you remember geeking out over?
+         <br><br>
+         EC: “Sesame Street” and the Muppets. I thought Jim Henson ruled the universe. I even thought it was pretty cool that I shared my first name with a muppet. Until the first day of kindergarten, when I quickly learned that “Ernie” was not a cool name to have. That was about the time I segued into my next childhood obsession, “Star Wars.”
+         <br><br>
+         Reporter: Like the book’s hero, you possess a deep knowledge of a broad swath of pop culture. How do you have so much time on your hands?
+         <br><br>
+         EC: Well, I’m raising a toddler now, so I don’t have as much time to geek out as I used to. I think I amassed a lot of that knowledge during my youth. Like most geeks, I was a sponge for all kinds of movies, TV shows, cartoons, and video games. Then as an adult, I worked at a long series of low-paying tech support jobs that allowed me to surf the Internet all day, and I spent a lot of my cubicle time looking up obscure pop-culture minutiae from my childhood while I waited for people to reboot their PCs. Of course, I spent most of my off hours geeking out, too. Luckily, all those hours can now be classified as “research” for my novel.
+
+       </p>
+       <button style="background-color:#fff8e6;"class="collapsible" onclick="myFunctions()" id="myBtns">Read more</button>
+        <script src="project.js"></script>
+      </div>
+      <div class="aPage">
+        <h2>Related Sites</h2>
+        <a href="https://randomhouse.app.box.com/s/1ke8y6ky7tf7qhl8cds1eqofqy4v1rar">Ernest Cline Contact information</a>
+        <br>
+        <br>
+        <a href="https://twitter.com/erniecline?lang=en">Follow Ernest cline on twitter</a>
+      </div>
+      <div class="aPage">
+        <h2>Meet Wade Watts from READY PLAYER ONE by Ernest Cline | kick-a** characters</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uD25Y18Ozlw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <!--main body ends here-->
+      <!--footer of the page-->
+       <footer  class="footers">
+         <h2 class="font">Get news about Sci-Fi & Fantasy books, authors, and more</h2>
+         <button onclick="document.getElementById('id03').style.display='block'" style="background-color:#d41c3a; ">SUBSCRIBE</button>
+          <div id="id03" class="subscribe b">
+         <form class="excerpt-content animate">
+         <div class="container">
+         <input type="text" placeholder="Name" name="name" required>
+         <input type="text" placeholder="Email address" name="mail" required>
+         <label>
+         <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+         </label>
+         </div>
+         <div class="container">
+         <input type="submit" value="Subscribe">
+         </div>
+         <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn" >Cancel</button>
+         </form>
+         </div>
+         <script src="project.js"></script>
+      </footer>
+    </body>
+  </html>
